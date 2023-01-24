@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "categoria": "insumos",
+        "nombre": "CE-1103",
+        "detalle": "Cable UTP Cat 5",
+        "descripcion": "Cable de Red UTP Categoria 5e (exteriores) por Metro.",
+        "unidad": "mts"
+    },
+    {
+        "id": "2",
+        "categoria": "insumos",
+        "nombre": "RJ45",
+        "detalle": "Ficha RJ45 Cat 5",
+        "descripcion": "Ficha de Red UTP Categoria 5e (exteriores) por Unidad.",
+        "unidad": "unidad"
+    },
+    {
+        "id": "3",
+        "categoria": "equipos",
+        "nombre": "RBSXTG-5HPnD-SA",
+        "detalle": "SXT SAR",
+        "descripcion": "Antena Acces Point Mikrotik SAR 5Ghz.",
+        "unidad": "unidad"
+    },
+    {
+        "id": "4",
+        "categoria": "equipos",
+        "nombre": "Fuente Mikrotik",
+        "detalle": "Fuente 24V Mikrotik",
+        "descripcion": "Fuente Mikrotik de 24v compatible con equipos Mikrotik y similares.",
+        "unidad": "unidad"
+    },
+    {
+        "id": "5",
+        "categoria": "equipos",
+        "nombre": "n2",
+        "detalle": "Routerboard GLC N2",
+        "descripcion": "Routerboard Mikrotik GLC N2 con Wi-Fi para uso domiciliario.",
+        "unidad": "unidad"
+    },
+    {
+        "id": "6",
+        "categoria": "equipos",
+        "nombre": "RBLHG-5acD",
+        "detalle": "Routerboard Mikrotik LHG 5",
+        "descripcion": "Routerboard y Access point Mikrotik LHGG ",
+        "unidad": "unidad"
+    }
+]
