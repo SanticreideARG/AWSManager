@@ -6,8 +6,7 @@ const OrderBuild = () => {
     return (
         <div>
             <h3 className='mt-3 center-this'>Detalle de Insumos y Equipos</h3>
-
-        
+            
             <table className="table table-hover mt-3 item-detail-table">
         <thead>
           <tr>
@@ -37,6 +36,10 @@ const OrderBuild = () => {
                  <textarea id="clientAdress" className='mb-2 p-2 center-this' autocomplete></textarea><br></br>
                 
       </div>
+      <Link to={`/input-data`}>
+      <button className='btn btn-success center-this p-3 mb-3'>Volver</button>
+      </Link>
+
         </div>
     );
 }
