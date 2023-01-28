@@ -1,5 +1,10 @@
 import React from 'react';
-import Img750 from './img/rb750.webp';
+import routers from './img/routers.png';
+import fuentes from './img/fuentes.png';
+import radioenlaces from './img/radioenlaces.png';
+import satelitales from './img/satelitales.png';
+import repetidores from './img/repetidores.png';
+import otros from './img/otros.png';
 
 const EquipmentsList = () => {
     return (
@@ -7,27 +12,27 @@ const EquipmentsList = () => {
           <h3 className='mt-3 center-this mb-4'>Seleccion de Equipos</h3>
             <div className="container category-container">
                 <div className="category-item">
-                    <img src={Img750} className='center-this' />
+                    <img src={routers} className='center-this' />
                     <h4 className='center-this'>Routerboards</h4>
                 </div>
                 <div className="category-item">
-                <img src={Img750} className='center-this' />
+                <img src={fuentes} className='center-this' />
                     <h4 className='center-this'>Poe's y Fuentes</h4>
                 </div>
                 <div className="category-item">
-                <img src={Img750} className='center-this' />
+                <img src={radioenlaces} className='center-this' />
                     <h4 className='center-this'>Equipos Radioenlace</h4>
                 </div>
                 <div className="category-item">
-                <img src={Img750} className='center-this' />
+                <img src={satelitales} className='center-this' />
                     <h4 className='center-this'>Equipos Satelitales</h4>
                 </div>
                 <div className="category-item">
-                <img src={Img750} className='center-this' />
-                    <h4 className='center-this'>Routerboards</h4>
+                <img src={repetidores} className='center-this' />
+                    <h4 className='center-this'>Equipos Repetidoras</h4>
                 </div>
                 <div className="category-item">
-                <img src={Img750} className='center-this' />
+                <img src={otros} className='center-this' />
                     <h4 className='center-this'>Otros</h4>
                 </div>
             </div>

@@ -23,7 +23,7 @@ const SuppliesList = () => {
                 </div>
                 <div className="category-item">
                 <img src='' className='center-this' />
-                    <h4 className='center-this'>Routerboards</h4>
+                    <h4 className='center-this'>Baterias</h4>
                 </div>
                 <div className="category-item">
                 <img src='' className='center-this' />
