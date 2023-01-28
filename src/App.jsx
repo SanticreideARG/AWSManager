@@ -8,7 +8,6 @@ import OrderList from './components/OrderList/OrderList';
 import OrderDetail from './components/OrderDetail/OrderDetail';
 import SetTime from  './components/SetTime/SetTime';
 import InputData from './components/InputData/InputData';
-import RouterData from './components/RouterData/RouterData';
 import OrderBuild from './components/OrderBuild/OrderBuild';
 import Settings from './components/Settings/Settings';
 import SuppliesList from './components/SuppliesList/SuppliesList';
@@ -31,7 +30,6 @@ function App() {
            <Route path='/order-list' element={<OrderList/>}/>
            <Route path='/set-time' element={<SetTime/>}/>
            <Route path='/input-data' element={<InputData/>}/>
-           <Route path='/router-data' element={<RouterData/>}/>
            <Route path='/settings' element={<Settings/>}/>
            <Route path='/order-build' element={<OrderBuild/>}/>
            <Route path='/supplies-list' element={<SuppliesList/>}/>

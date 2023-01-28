@@ -44,8 +44,9 @@ const NewOrder = () => {
             <input id="clientAdress" type='text' className='mb-2 p-2 center-this'></input><br></br>
 
             <Link to={`/input-data`}>
-            <button className='btn btn-dark p-4 center-this mb-4'>Siguiente</button>
+            <button className='btn btn-dark p-4 center-this mb-5'>Siguiente</button>
             </Link>
+            <button className='btn btn-danger p-4 center-this mb-3 mt-4'>Borrar Todo</button>
         </div>
     );
 }

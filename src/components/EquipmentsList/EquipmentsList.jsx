@@ -21,15 +21,15 @@ const EquipmentsList = () => {
                 </div>
                 <div className="category-item">
                 <img src={radioenlaces} className='center-this' />
-                    <h4 className='center-this'>Equipos Radioenlace</h4>
+                    <h4 className='center-this'>Radioenlace</h4>
                 </div>
                 <div className="category-item">
                 <img src={satelitales} className='center-this' />
-                    <h4 className='center-this'>Equipos Satelitales</h4>
+                    <h4 className='center-this'>Satelitales</h4>
                 </div>
                 <div className="category-item">
                 <img src={repetidores} className='center-this' />
-                    <h4 className='center-this'>Equipos Repetidoras</h4>
+                    <h4 className='center-this'>Repetidoras 5.7</h4>
                 </div>
                 <div className="category-item">
                 <img src={otros} className='center-this' />

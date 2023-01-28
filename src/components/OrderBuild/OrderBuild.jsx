@@ -21,13 +21,21 @@ const OrderBuild = () => {
 
         </tbody>
       </table>
+      <div className='container center-this'>
       <div className='flex-container'>
       <Link to={`/equipment-list`}>
-      <button className='btn btn-primary p-3 center-this mb-2'>Agregar Equipo</button>
+      <button className='btn btn-primary p-3 mb-2'>Agregar Equipo</button>
       </Link>
       <Link to={`/supplies-list`}>
-      <button className='btn btn-primary p-3 center-this'>Agregar Insumo</button>
+      <button className='btn btn-primary p-3'>Agregar Insumo</button>
       </Link>
+      <br></br>
+      </div>
+      </div>
+      <div>
+      <label for="description"  className='center-this mt-4'>Tarea Realizada:</label><br></br>
+                 <textarea id="clientAdress" className='mb-2 p-2 center-this' autocomplete></textarea><br></br>
+                
       </div>
         </div>
     );

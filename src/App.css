@@ -39,7 +39,7 @@
 
 .detail-order{
   padding: 8px;
-  background-color: #acc2f0;
+  background-color: #0d0a1d;
   border-radius: 5px;
 }
 .center-this{
@@ -73,19 +73,21 @@ input::-webkit-inner-spin-button {
 
 .flex-container{
   display: flex;
+  margin: 0;
+  justify-content: space-evenly;
 }
 .category-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .category-item{
+  display: grid;
+  grid-template-rows: 3fr 1fr;
   border: 1px solid #282c34;
-  width:95%;
-  height: 200px;
   border-radius: 5px;
-  margin: 4px;
+  margin: 2px;
 }
 .category-item img{
-  height: 150px;
+  width: 20vh;
   border-radius: 6px;
 }
