@@ -36,7 +36,9 @@ const EquipmentsList = () => {
                     <h4 className='center-this'>Otros</h4>
                 </div>
             </div>
-
+            <Link to={`/order-build`}>
+                  <button className='btn btn-success center-this p-3 mb-3'>Volver</button>
+             </Link>
         </div>
     );
 }

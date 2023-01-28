@@ -16,7 +16,7 @@ const SuppliesList = () => {
             <div className="container category-container">
                 <div className="category-item">
                     <img src={cables} className='center-this' />
-                    <h4 className='center-this'>Cables y Conectores</h4>
+                    <h4 className='center-this'>Cables/Fichas</h4>
                 </div>
                 <div className="category-item">
                 <img src={baterias} className='center-this' />
